@@ -1,0 +1,42 @@
+.warpper {
+    display: flex;
+    align-items: center;
+    padding: 6px 16px;
+    cursor: pointer;
+    &:hover {
+        background: rgba(255, 255, 255, 0.04);
+    }
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.infor {
+    flex: 1;
+    margin-left: 12px;
+}
+.name {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.username {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.check {
+    font-size: 1.3rem;
+    margin-left: 5px;
+    color: rgb(32, 213, 236);
+}
